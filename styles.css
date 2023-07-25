@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstcont{
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/firstimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p {
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+    text-align: center;
+}
+a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 15px;
+
+}
+.blank,
+.other{
+    width: 100%;
+    min-height: 40vh;
+    background-color: #969696;   
+}
+
+.secondcont{
+    background-image: url(images/bg-callout.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 1200px;
+    justify-content: space-around;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.card{
+    justify-items: center;
+    border: none;
+
+}
+      
+.card >a {
+    margin-bottom: 2em;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    max-width: 300px;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img-card {
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.cardimage{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
