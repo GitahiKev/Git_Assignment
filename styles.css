@@ -67,6 +67,7 @@ h3 {
 .card{
     justify-items: center;
     border: none;
+    font-size: small;
 
 }
       
@@ -79,7 +80,7 @@ h3 {
 .item {
     display: flex;
     max-width: 300px;
-    height: 500px;
+    height: 600px;
     background-color: white;
     flex-direction: column;
     align-items: center;
